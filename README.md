@@ -1,0 +1,1 @@
+# chrome-speed-reading-extension
