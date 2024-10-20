@@ -1,6 +1,8 @@
 
 # BoldSpeed
 
+<img src="images/logo.png" alt="Logo" width="100" style="vertical-align: middle; margin-right: 10px; display: inline;"/>
+
 **BoldSpeed** is a Chrome extension designed to enhance reading speed by applying bold formatting to the first portion of words on a webpage based on their length. This visual aid can help users to scan and absorb textual content more efficiently.
 
 ## Features
