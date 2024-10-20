@@ -3,7 +3,7 @@
 
 <img src="images/logo.png" alt="Logo" width="100" style="vertical-align: middle; margin-right: 10px; display: inline;"/>
 
-**BoldSpeed** is a Chrome extension designed to enhance reading speed by applying bold formatting to the first portion of words on a webpage based on their length. This visual aid can help users to scan and absorb textual content more efficiently.
+**BoldSpeed** is a free Google Chrome extension that enhances reading speed by applying bold formatting to the first portion of words on web pages. This method simplifies the visual scanning of text, aiding quick comprehension and efficiency. Although similar to popular tools like Bionic Reading, BoldSpeed adopts a more straightforward approach by focusing on percentage-based text enhancement without additional complexities. Perfect for anyone looking to improve their online reading experience for free, BoldSpeed offers a user-friendly solution to navigate and absorb digital content swiftly. 
 
 ## Features
 
