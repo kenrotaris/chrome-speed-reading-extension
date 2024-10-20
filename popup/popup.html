@@ -1,0 +1,71 @@
+<!-- popup/popup.html -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <label class="switch">
+          <input type="checkbox" id="toggleButton" />
+          <span class="slider"></span>
+        </label>
+        <button id="settingsButton" class="settings-button">
+          <img
+            src="../images/settings-icon.svg"
+            alt="Settings"
+            width="20"
+            height="20"
+            style="
+              filter: invert(80%) sepia(5%) saturate(1000%) hue-rotate(177deg)
+                brightness(92%) contrast(90%);
+            "
+          />
+        </button>
+      </div>
+      <div id="status">BoldSpeed is currently inactive</div>
+      <div id="settingsContainer" class="settings-container hidden">
+        <div class="slider-container">
+          <div>
+            <div class="slider-label">
+              <div class="label-text">Short Words</div>
+              <div class="value-display" id="shortValue"></div>
+            </div>
+            <div class="example">
+              Words up to 3 letters: "the", "and", "but", "to"
+            </div>
+            <input type="range" id="shortWords" min="0" max="100" />
+          </div>
+          <div>
+            <div class="slider-label">
+              <div class="label-text">Medium Words</div>
+              <div class="value-display" id="mediumValue"></div>
+            </div>
+            <div class="example">
+              Words 4-7 letters: "about", "where", "system"
+            </div>
+            <input type="range" id="mediumWords" min="0" max="100" />
+          </div>
+          <div>
+            <div class="slider-label">
+              <div class="label-text">Long Words</div>
+              <div class="value-display" id="longValue"></div>
+            </div>
+            <div class="example">
+              Words 8+ letters: "experience", "development"
+            </div>
+            <input type="range" id="longWords" min="0" max="100" />
+          </div>
+        </div>
+        <button id="restoreDefaults" class="restore-button">
+          Restore Defaults
+        </button>
+      </div>
+      <div class="footer">
+        Made by <a href="https://kenrotaris.dev" target="_blank">Ken Rotaris</a>
+      </div>
+    </div>
+    <script src="popup.js"></script>
+  </body>
+</html>
